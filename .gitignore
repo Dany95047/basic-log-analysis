@@ -1,0 +1,13 @@
+# Python / Jupyter
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Sensitive or huge raw data
+*.evtx
+data/*.evtx
+*.docx
