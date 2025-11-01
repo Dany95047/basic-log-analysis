@@ -8,9 +8,6 @@ This is an **entry-level SOC analyst project** in my portfolio.
 
 ## 🧰 Tools Used
 
-
-| Category | Tools |
-
 | Language | Python |
 
 | Notebook | Jupyter Notebook |
