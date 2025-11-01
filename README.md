@@ -11,8 +11,6 @@ This is an **entry-level SOC analyst project** in my portfolio.
 
 | Category | Tools |
 
-|---------|-------|
-
 | Language | Python |
 
 | Notebook | Jupyter Notebook |
