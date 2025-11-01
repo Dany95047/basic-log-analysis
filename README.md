@@ -1,20 +1,12 @@
-\# 🔐 Basic Log Analysis — Windows Failed Login Investigation (Event ID 4625)
-
-
+# 🔐 Basic Log Analysis — Windows Failed Login Investigation (Event ID 4625)
 
 This project analyzes Windows Security.evtx logs to investigate failed logon attempts (Event ID 4625) and find patterns that may indicate brute force attacks, credential guessing, or suspicious authentication behavior.
+The dataset comes from a Windows endpoint (local machine) — the logs were exported from **Event Viewer → Windows Logs → Security** and then parsed with Python.
+This is an **entry-level SOC analyst project** in my portfolio.
 
 
 
-The dataset comes from a Windows endpoint (local machine) — the logs were exported from \*\*Event Viewer → Windows Logs → Security\*\* and then parsed with Python.
-
-
-
-This is \*\*entry-level SOC analyst project #1\*\* in my portfolio.
-
-
-
-\## 🧰 Tools Used
+## 🧰 Tools Used
 
 
 
@@ -34,17 +26,12 @@ This is \*\*entry-level SOC analyst project #1\*\* in my portfolio.
 
 
 
-\## 🎯 Project Goals
+## 🎯 Project Goals
 
-
-
-\- Parse Windows Security.evtx logs from a local Windows machine
-
-\- Extract key fields: timestamp, user, IP, logon type, status, substatus
-
-\- Identify failed logon attempts (Event ID 4625)
-
-\- Visualize patterns to detect potential credential-based attacks such as:
+- Parse Windows Security.evtx logs from a local Windows machine
+- Extract key fields: timestamp, user, IP, logon type, status, substatus
+- Identify failed logon attempts (Event ID 4625)
+- Visualize patterns to detect potential credential-based attacks such as:
 
 &nbsp; - repeated failed login attempts (burst analysis)
 
