@@ -32,13 +32,9 @@ This is an **entry-level SOC analyst project** in my portfolio.
 - Extract key fields: timestamp, user, IP, logon type, status, substatus
 - Identify failed logon attempts (Event ID 4625)
 - Visualize patterns to detect potential credential-based attacks such as:
-
 &nbsp; - repeated failed login attempts (burst analysis)
-
 &nbsp; - remote vs local logon types (network vs console)
-
 &nbsp; - time-of-day clustering
-
 &nbsp; - successful login shortly after failures
 
 
@@ -52,33 +48,23 @@ This is an **entry-level SOC analyst project** in my portfolio.
 - No evidence of remote brute force or credential spraying in this dataset
 - Successful logons after failures: not observed within threshold window
 
-
-
-
-
-\## 🖼️ Screenshots
-
-
+## 🖼️ Screenshots
 
 These visualizations were generated directly from the parsed log data.
-
-
 
 | Chart | Description |
 
 |-------|-------------|
 
-| !\[Failed logons by user](screenshots/failed\_by\_user.png) | Top users with failed logins |
 
-| !\[Logon Type distribution](screenshots/logon\_type\_distribution.png) | Local vs network vs RDP logon type comparison |
-
-| !\[Failed logons by hour](screenshots/failed\_by\_hour.png) | Time-of-day pattern of failed logins |
+| ![Logon Type distribution](screenshots/logon\_type\_distribution.png) | Local vs network vs RDP logon type comparison |
+| ![Failed logons by hour](screenshots/failed\_by\_hour.png) | Time-of-day pattern of failed logins |
 
 
 
 
 
-\## 📂 Repository Structure
+## 📂 Repository Structure
 
 
 
