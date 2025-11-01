@@ -9,7 +9,6 @@ This is an **entry-level SOC analyst project** in my portfolio.
 ## 🧰 Tools Used
 
 
-
 | Category | Tools |
 
 |---------|-------|
@@ -52,20 +51,11 @@ This is an **entry-level SOC analyst project** in my portfolio.
 
 These visualizations were generated directly from the parsed log data.
 
-| Chart | Description |
-
-|-------|-------------|
-
-
 | ![Logon Type distribution](screenshots/logon\_type\_distribution.png) | Local vs network vs RDP logon type comparison |
 | ![Failed logons by hour](screenshots/failed\_by\_hour.png) | Time-of-day pattern of failed logins |
 
 
-
-
-
 ## 📂 Repository Structure
-
 
 
 basic-log-analysis/
